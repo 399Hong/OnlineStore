@@ -1,0 +1,337 @@
+
+.NavigationBar {
+    overflow: auto;
+    
+    background-color: rgb(175, 211, 238);
+    position: fixed;/* stay top */
+    top: 40px; 
+    width: 100%; /* Full width */
+    height:50px;
+    min-height: 90px;
+    display:relative;/*navbar shrink need to fix logo*/
+    table-layout: auto;
+    z-index: 1;
+   
+  }
+  #loginBarPlaceHolder{
+    position: fixed;
+    background-color: rgb(235, 235, 235);
+    width:100%;
+    top :0px;
+    height:5px;
+    z-index: 1;
+
+  }
+  #loginBar{
+  
+    background-color: rgb(235, 235, 235);
+    width:100%;
+
+    position: fixed;
+    top :5px;
+    right: 10px;
+    
+    height:50px;
+    z-index: 0;
+    text-align: right;
+    z-index: 1;
+    
+  }
+  #loginButton{
+    padding-top: 100px;
+    outline: none;
+    top:10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 0px;
+
+    border: none;
+   
+    border-radius: 50px;
+    width: 20%;
+    opacity: 0.8;
+  }
+  #loginBar button:hover{
+    opacity: 1.0;
+    cursor: pointer;
+  }
+  
+
+  .NavigationBar li {
+   
+    float: left;
+    display: block;
+ 
+    position: relative;
+    color: black;
+    text-align: center;
+    padding: 19px 16px ;/*34 may look nicer lol*/
+    text-decoration: none;
+    font-size : 40px;
+   
+    
+    
+    cursor: grab;
+    
+
+    
+  }
+ 
+  .NavigationBar li1 {
+    
+    overflow:visible;
+    float: right;
+    display: relative ;
+    text-align: center;
+    padding: 14px 16px;
+    cursor:none;
+    
+    
+
+    
+  }
+  
+  /* Change background on mouse-over */
+  .NavigationBar li:hover {
+    background: white;
+    color: black;
+    cursor:grab;
+  }
+  
+
+  .content {
+    margin-top: 150px; 
+  
+  }
+
+.image{ 
+    float:left;  
+    
+    width:15%;
+    height:150px; 
+    
+} 
+.txtBox{ 
+
+    width:100%; 
+    height:100%; 
+   
+    
+    
+} 
+
+
+
+  
+#inputBox{
+    /* search product*/
+    padding:6px 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-size: 17px;
+   
+  }
+  
+.searchBar button {
+   
+    padding: 6px 10px;
+    margin-left: px;
+    margin-top: 8px;
+    
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.searchBar button:hover {
+    background: #ccc;
+  }
+.searchBar input:focus {
+    outline: none;
+}
+
+.LocationInfo{
+    margin: auto;
+}
+
+li{
+    margin: left;
+    display:table;
+  
+}
+h4{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+
+}
+#comment{
+    
+   width:40%;
+   height:130px;
+   
+    border-radius: 4px;
+    margin-top: 8px;
+    font-size: 17px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+
+
+}
+#name{
+    border-radius: 4px;
+}
+#nameSubmit{
+    border-radius: 4px;
+   
+
+}
+
+.article{
+  width :100%;
+  
+  text-align: center;/* align div*/
+  
+ 
+}
+
+.desc{
+
+  text-align: justify;
+  text-decoration: none;
+}
+body{
+  background-color:rgba(235, 235, 235, 0.913); font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/**/
+/* Add padding to containers */
+
+/* Full-width input fields */
+#Register input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background: #fafafa;
+
+
+  
+}
+
+#Register input[type=text]:focus, input[type=password]:focus,input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+#Register input[type=submit]{
+  outline: none;
+
+}
+/* Overwrite default styles of hr */
+#Register hr {
+  border: 1px solid #fafafa;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+#registerbtn {
+  background-color:  rgb(175, 211, 238);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.85;
+
+
+}
+
+#registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+#Register a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#Register{
+  margin:auto;
+  width: 50%;
+  min-width:300px;
+  
+}
+#invalid{
+  color: red;
+}
+.buyBtn{
+
+  background-color:  red;
+  color: white;
+  padding: 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150%;
+  opacity: 0.7;
+  z-index: 2;
+ 
+
+}
+.buyBtn:focus{
+  outline: none;
+}
+
+.buyBtn:hover {
+  opacity: 1;
+}
+
+#loginbtn {
+  background-color:  rgb(175, 211, 238);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.85;
+
+
+}
+
+#loginbtn:hover {
+  opacity: 1;
+}
+
+#login{
+  display: None;
+}
+#sucessfullMessage{
+  background-color: #4CAF50;
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+  font-size: larger;
+  display:none;
+}
+#loginlMessage{
+  background-color: red;
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+  font-size: larger;
+  display:none;
+}
